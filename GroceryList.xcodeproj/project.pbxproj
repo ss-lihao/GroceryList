@@ -65,6 +65,7 @@
 		D0F4BE0918396FF5004A318B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F4BE0818396FF5004A318B /* Security.framework */; };
 		D0F4BE0C18397264004A318B /* GCYUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F4BE0B18397264004A318B /* GCYUserController.m */; };
 		D0F4BF2318397CF4004A318B /* GCYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F4BF2218397CF4004A318B /* GCYViewController.m */; };
+		F67BA9EA1C086D6100ECA3A1 /* UserSettings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F67BA9E91C086D6100ECA3A1 /* UserSettings.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -557,6 +558,7 @@
 		D0F4BEEB18397A2B004A318B /* Archimedes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Archimedes.xcodeproj; path = External/ReactiveCocoaLayout/External/Archimedes/Archimedes.xcodeproj; sourceTree = "<group>"; };
 		D0F4BF2118397CF4004A318B /* GCYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCYViewController.h; sourceTree = "<group>"; };
 		D0F4BF2218397CF4004A318B /* GCYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCYViewController.m; sourceTree = "<group>"; };
+		F67BA9E91C086D6100ECA3A1 /* UserSettings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = UserSettings.xcconfig; path = Configuration/UserSettings.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -884,6 +886,7 @@
 		D0F4BDB818396BC2004A318B /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				F67BA9E91C086D6100ECA3A1 /* UserSettings.xcconfig */,
 				D05D257C18664F3B00C6623A /* GroceryList.xcconfig */,
 				D0F4BDB918396BC2004A318B /* Base */,
 				D0F4BDC318396BC2004A318B /* iOS */,
@@ -1092,7 +1095,7 @@
 			name = GroceryListTests;
 			productName = GroceryListTests;
 			productReference = D0F0B562171507240048B8DE /* GroceryListTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -1475,6 +1478,7 @@
 			files = (
 				D03AB160185D2B3600C8D0C9 /* groceryicon-120.png in Resources */,
 				D053AB831861133D0084CF19 /* groceryicon-58.png in Resources */,
+				F67BA9EA1C086D6100ECA3A1 /* UserSettings.xcconfig in Resources */,
 				D0F0B54A171507240048B8DE /* InfoPlist.strings in Resources */,
 				D0F0B552171507240048B8DE /* Default.png in Resources */,
 				D0F0B554171507240048B8DE /* Default@2x.png in Resources */,

@@ -19,7 +19,7 @@
 #import "RACSignal+GCYOperatorAdditions.h"
 
 #ifndef GCY_LIST_REPOSITORY
-#error "Define GCY_LIST_REPOSITORY to the owner/name of the repository to store the grocery list within."
+//#error "Define GCY_LIST_REPOSITORY to the owner/name of the repository to store the grocery list within."
 #endif
 
 @interface GCYGroceryListViewModel ()

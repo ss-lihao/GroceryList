@@ -9,7 +9,7 @@
 #import "GCYUserController.h"
 
 #if !defined(GCY_CLIENT_ID) || !defined(GCY_CLIENT_SECRET)
-#error "GCY_CLIENT_ID and GCY_CLIENT_SECRET must be defined to connect to GitHub."
+//#error "GCY_CLIENT_ID and GCY_CLIENT_SECRET must be defined to connect to GitHub."
 #endif
 
 @interface GCYUserController ()
